@@ -4,7 +4,8 @@
   "description": "https://jestjs.io/docs/getting-started",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest",
+    "testcoverage":"npm test -- --coverage"
   },
   "author": "",
   "license": "ISC",
